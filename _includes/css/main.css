@@ -448,6 +448,14 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }} !important;
 }
 
+.portfolio-row {
+  margin-bottom: 60px;
+}
+
+.portfolio-detail {
+  margin-top: 60px;
+}
+
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
 .modal.fade.in {

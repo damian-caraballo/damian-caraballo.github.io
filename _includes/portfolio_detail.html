@@ -1,0 +1,40 @@
+<section class="portfolio-detail">
+  <div class="container">
+
+    <div class="text-center">
+      <h2>{{ page.title }}</h2>
+      <hr class="star-primary">
+
+      <div class="row">
+        {% for img in page.detail-imgs %}
+        <div class="col-sm-4"><img src="/img/portfolio/{{ img.img }}" class="img-responsive img-centered"></div>
+        {% endfor %}
+      </div>
+
+    </div>
+    <hr />
+    <div class="row">
+      <div class="col-sm-4">
+        <ul class="list-group item-details">
+          <li class="list-group-item">Tech Used:
+              <strong>{{ page.tech }}</strong>
+          </li>
+          <li class="list-group-item">Date:
+              <strong>{{ page.project-date }}</strong>
+          </li>
+          {% if page.project-url %}
+          <li class="list-group-item"><a href="{{ page.project-url }}" target="_blank">Visit Site <i class="fa fa-external-link"></i></a></li>
+          {% endif %}
+        </ul>
+
+      </div>
+
+      <div class="col-sm-8 text-center">
+        <p>{{ page.description }}</p>
+      </div>
+
+    </div>
+
+
+  </div>
+</section>
