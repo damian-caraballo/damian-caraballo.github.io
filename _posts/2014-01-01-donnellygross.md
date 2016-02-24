@@ -14,4 +14,4 @@ title: Donnelly &amp; Gross
 description: Donnelly &amp; Gross, employment and labor lawyers, needed a fresh new web presence that portrayed the firm as friendly and focused while being easy to update with news and publications. 
 project-url: http://www.donnellygross.com
 ---
-<p>The design used original artwork by local artist, John Westmark, to diferentiate the firm from the typical sterile look of most law offices. A custom responsive Wordpress template was made to allow for easy updating and content management. </p>
+<p>The design used original artwork by local artist, John Westmark, to differentiate the firm from the typical sterile look of most law offices. A custom responsive Wordpress template was made to allow for easy updating and content management. </p>
